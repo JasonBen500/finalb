@@ -1,0 +1,18 @@
+package com.examen.ferreteria.dto;
+
+import java.math.BigDecimal;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ArticuloCategoriaDTO {
+    private String nombre;
+    private String marca;
+    private String categoria;
+    private BigDecimal precio;
+    private Integer stock;
+}
